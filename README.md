@@ -58,16 +58,27 @@ Follow these steps to set up the project on your systems.
 
    ```bash
    git clone https://github.com/azeemkhan099/Multi-OS-connect
+   
 2. **Compile the Server Code:**
+
+   ```bash
    gcc -o server server.c -lpthread
    
 4. **Compile the Client Code:**
+
+   ```bash
    gcc -o client.exe client.c -lws2_32
+
+   
 ## Usage
 
-**Start the Server:**
-./server <number_of_tutors> <number_of_chairs>
+1. **Start the Server:**
 
-**Start the Client:**
-client.exe <IP-adress_of_server_network> <number_of_students> <number_of_help_session> <number_of_chairs>
+   ```bash
+   ./server <number_of_tutors> <number_of_chairs>
+
+2. **Start the Client:**
+
+   ```bash
+   client.exe <IP-adress_of_server_network> <number_of_students> <number_of_help_session> <number_of_chairs>
 
