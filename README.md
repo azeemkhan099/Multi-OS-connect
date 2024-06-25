@@ -57,8 +57,7 @@ Follow these steps to set up the project on your systems.
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/multios-connect.git
-   cd multios-connect
+   git clone https://github.com/azeemkhan099/Multi-OS-connect
 2. **Compile the Server Code:**
    gcc -o server server.c -lpthread
    
